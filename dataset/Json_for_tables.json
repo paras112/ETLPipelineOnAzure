@@ -1,0 +1,17 @@
+{
+	"name": "Json_for_tables",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer_for_git",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}
