@@ -1,0 +1,12 @@
+{
+	"name": "HttpServer_for_git",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/anshlambagit/spotify_azure_project/refs/heads/main/loop_input",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
