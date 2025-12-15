@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azureprojectdatafactoryparas"
+		},
+		"Azure Sql_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"Azure Sql_properties_typeProperties_server": {
+			"value": "azureprojectsqlserverparas.database.windows.net"
+		},
+		"Azure Sql_properties_typeProperties_database": {
+			"value": "azureprojectdbparas"
+		},
+		"Azure Sql_properties_typeProperties_userName": {
+			"value": "adminparas"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://azureprojectstorageparas.dfs.core.windows.net/"
+		},
+		"HttpServer_for_git_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/anshlambagit/spotify_azure_project/refs/heads/main/loop_input"
+		}
+	}
+}
